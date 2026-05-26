@@ -328,9 +328,9 @@ export default function App() {
           <button
             className="collapse-btn"
             onClick={() => setSidebarOpen(o => !o)}
-            title={sidebarOpen ? 'Collapse' : 'Expand'}
+            title={sidebarOpen ? 'Close' : 'Open'}
           >
-            {sidebarOpen ? '◀' : '▶'}
+            {isMobile ? '✕' : sidebarOpen ? '◀' : '▶'}
           </button>
         </div>
 
