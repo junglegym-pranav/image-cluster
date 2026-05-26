@@ -1,0 +1,27 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  /* iOS Safari: use available height so address bar doesn't shrink content */
+  height: -webkit-fill-available;
+}
+
+body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: -webkit-fill-available;
+  overflow: hidden; /* prevent scroll bounce on iOS */
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background: #0a0a0a;
+  color: #f4f4f4;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+}
