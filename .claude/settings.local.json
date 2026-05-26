@@ -16,7 +16,12 @@
       "Bash(cp /tmp/suzanne_test.glb \"/Users/pranav/Desktop/untitled folder 2/image-cluster/src/assets/models/suzanne.glb\" *)",
       "Bash(npx vite *)",
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5174/)",
-      "Bash(ipconfig getifaddr *)"
+      "Bash(ipconfig getifaddr *)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git branch *)",
+      "Bash(git remote *)"
     ],
     "additionalDirectories": [
       "/private/tmp"
