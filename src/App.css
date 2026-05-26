@@ -54,9 +54,8 @@
 .mobile-toggle {
   display: none;
   position: fixed;
-  /* Bottom-right FAB — thumb-friendly zone, clear of iOS home bar */
-  bottom: max(28px, env(safe-area-inset-bottom, 28px));
-  right: max(20px, env(safe-area-inset-right, 20px));
+  top: 20px;
+  right: 20px;
   z-index: 300;
   width: 54px;
   height: 54px;
