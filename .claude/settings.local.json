@@ -21,7 +21,13 @@
       "Bash(git add *)",
       "Bash(git commit *)",
       "Bash(git branch *)",
-      "Bash(git remote *)"
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Bash(gh auth *)",
+      "Read(//Users/pranav/**)",
+      "Bash(/opt/homebrew/bin/gh repo *)",
+      "Bash(/opt/homebrew/bin/gh api *)",
+      "Bash(GIT_ASKPASS=/opt/homebrew/bin/gh git push -u origin main --force)"
     ],
     "additionalDirectories": [
       "/private/tmp"

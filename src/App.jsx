@@ -107,7 +107,7 @@ function ImageSprite({ src, position, height, wiggleAmp, onHover, onUnhover, onC
       onPointerOver={e => { e.stopPropagation(); onHover() }}
       onPointerOut={e => { e.stopPropagation(); onUnhover() }}
     >
-      <spriteMaterial map={texture} toneMapped={false} />
+      <spriteMaterial map={texture} toneMapped={false} fog={false} />
     </sprite>
   )
 }
@@ -209,7 +209,7 @@ const isMobile = typeof window !== 'undefined' && window.innerWidth < 1024
 export default function App() {
   const [shapeId,      setShapeId]      = useState(shapes3d[0].id)
   const [lbIndex,      setLbIndex]      = useState(null)
-  const [sidebarOpen,  setSidebarOpen]  = useState(!isMobile)
+  const [sidebarOpen,  setSidebarOpen]  = useState(false)
   const [customModels, setCustomModels] = useState([])
 
   // ── Slider state ──────────────────────────────────────────────────
